@@ -47,7 +47,7 @@
 }
 .bg-opacity-dark {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.3)
+  background-color: rgba(1, 0, 0, 0.5)
 }
 
 .text-vertical-n {
@@ -55,4 +55,9 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   overflow: hidden;
+}
+
+.bg-light-n {
+  position: relative !important;
+  background-color: rgba(255, 255, 255, 0.7)
 }
